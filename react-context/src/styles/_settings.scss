@@ -1,0 +1,52 @@
+// Color
+$bgcolor: #ff6060;
+$containerColor: #f6f6f6;
+$white: #ffffff;
+$black: #000000;
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: $white;
+  margin: 0;
+  // @include verticalCenter;
+}
+li {
+  list-style-type: none;
+}
+
+.felxCentre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.isOpen {
+  display: block;
+}
+.isClosed {
+  display: none;
+}
