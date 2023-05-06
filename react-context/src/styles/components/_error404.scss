@@ -1,0 +1,21 @@
+.error404{
+    text-align: center;
+
+    &__status{
+        color: $bgcolor;
+        font-size: 18rem;
+        font-weight: 700;
+        margin: 8rem 0 4rem;
+    }
+    &__txt{
+        color: $bgcolor;
+    }
+    &__link{
+        color: $bgcolor;
+        text-decoration-color: initial;
+        display: inline-block;
+        font-size: 1.125rem;
+        margin: 8rem 0;
+        text-decoration: underline;
+    }
+}

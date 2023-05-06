@@ -1,0 +1,73 @@
+.information {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 4rem;
+
+  &__box {
+    margin: 0 4rem 0 0;
+    max-width: calc(100% - 16rem);
+  }
+
+  &__title {
+    color: $bgcolor;
+    font-size: 2.25rem;
+    line-height: 1.35;
+    margin: 0;
+  }
+
+  &__location {
+    color: $bgcolor;
+    font-size: 1.125rem;
+    margin: 0.5rem 0;
+  }
+
+  &__tag {
+    background: $bgcolor;
+    border-radius: 0.5rem;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 0.25rem 1rem 0.25rem 0;
+    padding: 0.25rem 2rem;
+  }
+
+  &__aside {
+    width: 12rem;
+  }
+
+  &__profile {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__name {
+    color: $bgcolor;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 0 1rem 0 0;
+  }
+
+  &__profileImage {
+    border-radius: 50%;
+    height: 4rem;
+    text-align: center;
+    width: 4rem;
+    background: cover/center;
+  }
+
+  &__start {
+    margin: 1.5rem 0 0;
+    text-align: right;
+  }
+}
+
+.colored {
+  color: $bgcolor;
+}
+
+.fa-star {
+  font-size: 1.5rem;
+}
